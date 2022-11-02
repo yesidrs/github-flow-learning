@@ -1,0 +1,29 @@
+{
+	"name": "git",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"eslint": "^8.26.0",
+		"eslint-config-standard": "^17.0.0"
+	},
+	"eslintConfig": {
+		"extends": "standard",
+		"rules": {
+			"no-unused-vars": "warn",
+			"space-before-function-paren": "off",
+			"no-multiple-empty-lines": "off",
+			"no-tabs": "off",
+			"indent": ["warn", "tab"],
+			"quotes": ["warn", "single"],
+			"jsx-quotes": ["warn","prefer-single"],
+			"eol-last": "off"
+		}
+	}
+}
