@@ -1,45 +1,45 @@
 {
-	"name": "git",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
+  "name": "git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "type": "module",
-	"scripts": {
-		"test": "vitest run",
-		"coverage": "vitest run --coverage",
-		"prepare": "husky install"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"eslint": "^8.26.0",
-		"eslint-config-standard": "^17.0.0",
-		"vitest": "^0.24.5"
-	},
-	"eslintConfig": {
-		"extends": "standard",
-		"rules": {
-			"no-unused-vars": "warn",
-			"space-before-function-paren": "off",
-			"no-multiple-empty-lines": "off",
-			"no-tabs": "off",
-			"indent": [
-				"warn",
-				"tab"
-			],
-			"quotes": [
-				"warn",
-				"single"
-			],
-			"jsx-quotes": [
-				"warn",
-				"prefer-single"
-			],
-			"eol-last": "off"
-		}
-	},
-	"devDependencies": {
-		"husky": "^8.0.1"
-	}
+  "scripts": {
+    "test": "vitest run",
+    "coverage": "vitest run --coverage",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-standard": "^17.0.0",
+    "vitest": "^0.24.5"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "rules": {
+      "no-unused-vars": "warn",
+      "space-before-function-paren": "off",
+      "no-multiple-empty-lines": "off",
+      "no-tabs": "off",
+      "indent": [
+        "warn",
+        2
+      ],
+      "quotes": [
+        "warn",
+        "single"
+      ],
+      "jsx-quotes": [
+        "warn",
+        "prefer-single"
+      ],
+      "eol-last": "off"
+    }
+  },
+  "devDependencies": {
+    "husky": "^8.0.1"
+  }
 }
