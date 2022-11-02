@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "lint": "eslint src/ --fix && eslint test/ --fix",
     "test": "vitest run",
     "coverage": "vitest run --coverage",
     "prepare": "husky install"
@@ -23,19 +24,6 @@
       "no-unused-vars": "warn",
       "space-before-function-paren": "off",
       "no-multiple-empty-lines": "off",
-      "no-tabs": "off",
-      "indent": [
-        "warn",
-        2
-      ],
-      "quotes": [
-        "warn",
-        "single"
-      ],
-      "jsx-quotes": [
-        "warn",
-        "prefer-single"
-      ],
       "eol-last": "off"
     }
   },
